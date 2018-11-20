@@ -8,17 +8,18 @@ connections=$( netstat | grep tcp )
 
 users=$( who )
 
-echo "This is a snapshot of your current system:
+echo -en "This is a snapshot of your current system:
 
-       Disk Used: $diskused
-       Free Memory: $memfree
-       Logged in Users: $user
+  \e[36m      Disk Used: $diskused
+  \e[95m     Free Memory: $memfree
+  \e[31m     Logged in Users: $user
        
        
- open internet connections: $connection"
+\e[46m open internet connections: $connection"
  
  echo "
  colar info:
  http://misk.flogisoft.com/bash/tip_colors_and_formatting
  http://wiki.bash-hackers.org/scripting/style
- https://help.ubuntu.com/community/UnityLauncherAndDesktopfiles
+ https:
+//help.ubuntu.com/community/UnityLauncherAndDesktopfiles"
