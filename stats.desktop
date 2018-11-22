@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=0.1
+Name=Stats
+Comment=generated program.  Hello ITC 136
+Exec=/usr/bin/gnome-terminal -e "bash -c '/usr/local/bin/stats; bash ' "
+Icon=/home/carlos/Desktop/aaron_rose.jpg
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+
+
